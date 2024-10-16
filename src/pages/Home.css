@@ -1,0 +1,196 @@
+.banner{
+    background-image: url(/src/assets/bg-img.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+
+.container{
+    max-width: 1140px !important;
+}
+
+.banner img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.grid-1{
+    padding-top: 80px;
+}
+
+.grid-1 h1{
+    font-size: 44px;
+}
+
+.grid-1 p{
+    font-size: 17px;
+    padding-top: 30px;
+
+}
+
+.button{
+    background-color: white;
+    color: #f0a951;
+    border-radius: 40px;
+    border: 3px solid #f0a951;
+    padding: 12px 40px;
+    margin-top: 12px;
+    font-weight: 500;
+}
+
+.button:hover{
+    background-color: black;
+    color: #f0a951;
+}
+
+.my-paintings{
+    margin-top: 100px;
+    padding: 40px 0px 40px 0px;
+}
+
+.my-paintings img{
+    width: 100%;
+    border-radius: 5px 5px 0px 0px;
+    margin-top: 30px;
+}
+
+.my-paintings p{
+    color: #6c757d;
+    font-size: 17px;
+}
+
+.my-paintings h3{
+    color: #f0a951;
+    font-size: 25px;
+    margin: 15px 0px 10px 0px;
+    font-weight: 400;       
+}
+
+.my-paintings h1{
+    font-size: 44px;
+    padding-top: 10px;
+    padding-bottom: 2px;
+}
+
+.image-wrapper {
+    overflow: hidden;
+  }
+  
+  .hover-image {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: block;
+  }
+  
+  .hover-image:hover {
+    transform: scale(1.1);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+  }
+
+  .cards{
+    margin-top: 50px;
+    padding-bottom: 30px;
+  }
+
+  .cards h1{
+        font-size: 45px;
+  }
+
+  .cards p{
+    color: #6c757d;
+    font-size: 17px;
+    padding: 15px;
+}
+
+.cards-1{
+    font-weight: 400;
+    text-align: center;
+}
+
+.cards i{
+    color: #6c757d;
+    font-size: 17px;
+    padding: 15px;
+}
+
+/* About//--------- */
+
+.about-banner{
+    background-image: url(/src/assets/AboutBg.jpg);
+    background-size: cover;
+    background-repeat:no-repeat ;
+    height: 60vh;
+    width: 100%;
+    position: relative;
+}
+
+.about-banner h1{
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        font-size: 45px;
+        font-weight: 600;
+}
+
+.about-grid{
+    margin-top: 80px;
+    align-items: center;
+    
+}
+
+.about-grid p{
+    font-size: 20px;
+    color: #6c757d;
+    margin: 10px 0px 0px 0px;
+    /* padding-right: 120px; */
+}
+.about-grid img{
+      padding-left: 10px;
+}
+
+/* Service------ */
+
+.Services{
+    margin-top: 90px;
+    display: flex;
+}
+
+.Services img{
+    max-width: 100%;
+    height: auto;
+}
+
+.services-2 img{
+    max-width: 100%;
+    height: auto;
+}
+
+.services-2{
+    margin-top: 90px;
+}
+
+.services-2 h1{
+    color: #f0a951;
+    font-size: 26px;
+}
+
+.services-2 p{
+    color: #6c757d;
+}
+
+.image-fluid{
+    max-width: 100%;
+    height: auto;
+}
+
+.contact{
+    margin-top: 90px;
+}
+
+.cards button{
+    margin-left: 455px;
+}
