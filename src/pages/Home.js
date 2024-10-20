@@ -20,7 +20,7 @@ function Home() {
         <Container>
           <Row>
             <Col lg='12'>
-              <img src={Banner} alt="project" />
+              <img src={Banner} alt="project" className="image-fluid" />
             </Col>
           </Row>
         </Container>
@@ -122,7 +122,7 @@ function Home() {
             <Col lg="3" className="cards-1">
               <h3>Urban</h3>
             </Col>
-            <Col lg="12">
+            <Col lg="">
             <button className='button mt-5'>View All services</button>
             </Col>
           </Row>

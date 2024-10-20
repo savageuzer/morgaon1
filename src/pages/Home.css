@@ -192,5 +192,19 @@
 }
 
 .cards button{
-    margin-left: 455px;
+    display: block;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.map{
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    .banner {
+      height: 70vh; /* Slightly smaller height for mobile */
+        width: 100%;
+        background-size: cover;
+    }
 }
