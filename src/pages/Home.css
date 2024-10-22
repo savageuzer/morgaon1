@@ -106,7 +106,14 @@
 
 .cards-1{
     font-weight: 400;
-    text-align: center;
+    border: 1px solid #f0a951;
+    height: 280px;
+}
+
+.icons{
+    color: #f0a951;
+    font-size: 45px;
+    padding-bottom: 15px;
 }
 
 .cards i{
@@ -182,6 +189,7 @@
     color: #6c757d;
 }
 
+
 .image-fluid{
     max-width: 100%;
     height: auto;
@@ -194,7 +202,7 @@
 .cards button{
     display: block;
     width: fit-content;
-    margin: 0 auto;
+    margin: 0 auto; 
 }
 
 .map{

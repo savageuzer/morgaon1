@@ -8,6 +8,7 @@ import About from './pages/About';
 import Contact from './pages/Contact';
 import Services from './pages/Services';
 import 'bootstrap/dist/css/bootstrap.min.css';
+// import './fontawesome'; 
 // import Mypaintings from './component/Mypaintings'
 
 function App() {

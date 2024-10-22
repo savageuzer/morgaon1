@@ -11,6 +11,11 @@ import project3 from '../assets/painting-3.png'
 import project4 from '../assets/painting-4.png'
 import project5 from '../assets/painting-5.png'
 import project6 from '../assets/painting-6.png'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faUser } from '@fortawesome/free-solid-svg-icons';
+import { faLeaf } from '@fortawesome/free-solid-svg-icons';
+import { faApple } from '@fortawesome/free-brands-svg-icons';
+import { faHouse } from '@fortawesome/free-solid-svg-icons';
 
 
 function Home() {
@@ -108,19 +113,22 @@ function Home() {
           <Row>
             <Col lg="12" className="text-center"><p>If you are looking for custom paintings, which will decorate your home or office, consider booking one or several of my services listed below. They will add more colors and emotions to your daily life.</p></Col>
           </Row>
-          <Row>
-            <Col lg="3" className="cards-1">
+          <Row className='cards-icon'>
+            <Col lg="3" className="cards-1 p-5 text-center">
+              <FontAwesomeIcon icon={faHouse} className='icons mt-5'/>
               <h3>Potrait</h3>
             </Col>
-            <Col lg="3" className="cards-1">
+            <Col lg="3" className="cards-1 p-5 text-center">
+            <FontAwesomeIcon icon={faApple} className='icons mt-5' />
               <h3>Landscape</h3>
             </Col>
-            <Col lg="3" className="cards-1">
+            <Col lg="3" className="cards-1 p-5 text-center">
+            <FontAwesomeIcon icon={faLeaf} className='icons mt-5' />
               <h3>Still Life</h3>
 
             </Col>
-            <Col lg="3" className="cards-1">
-              <h3>Urban</h3>
+            <Col lg="3" className="cards-1 p-5 text-center">
+            <FontAwesomeIcon icon={faUser} className='icons mt-5' /><h4>Urban</h4>
             </Col>
             <Col lg="">
             <button className='button mt-5'>View All services</button>
